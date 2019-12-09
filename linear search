@@ -1,0 +1,41 @@
+//Linear Search
+Linear search is used on a collections of items. 
+It relies on the technique of traversing a list from the leftmost 
+element of Collection and one by one compare x with each element of Collection.
+
+
+//example 
+int arr[] = {4,3,6,1,2,8,7,4}  find index key of value 8
+1-you hold index 0  do arr[0]==5?  no
+2-you hold index 1  do arr[1]==5?  no
+1-you hold index 2  do arr[2]==5?  no
+2-you hold index 3  do arr[3]==5?  no
+1-you hold index 4  do arr[4]==5?  no
+2-you hold index 5  do arr[5]==5?  yes  then stop 
+Answer is index 5 have value 5
+
+
+//The pseudo code for this example is as follows  to find value equal 5 in array:
+
+for(start to end of array)
+{
+    if (current_element equals to 5)  
+    {
+        print (current_index);
+    }
+}
+
+//time complexity 
+O(N) because u do Sequential Search
+
+
+//material 
+https://www.hackerearth.com/practice/algorithms/searching/linear-search/tutorial/
+https://www.geeksforgeeks.org/linear-search/
+
+
+//problems
+https://www.hackerearth.com/practice/algorithms/searching/linear-search/practice-problems/1/?sort_by=partially%20solved&p_level=
+
+-------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
